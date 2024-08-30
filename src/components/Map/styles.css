@@ -1,0 +1,21 @@
+/* Estilos personalizados para el clúster grande */
+.marker-cluster div {
+    background-color: black;
+    color: white;
+}
+
+/* Estilos personalizados hover para el clúster grande */
+.marker-cluster div:hover {
+    background-color: #1f2937;
+    color: white;
+}
+
+.marker-cluster-medium, .marker-cluster-large, .marker-cluster-small {
+    background-color: #8a868499;
+}
+
+@media (max-width: 768px) {
+    .leaflet-control-zoom {
+        display: none;
+    }
+}
