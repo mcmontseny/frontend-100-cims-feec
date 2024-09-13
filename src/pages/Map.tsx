@@ -8,7 +8,7 @@ import MapComponent from "@components/Map/Map";
 
 const MemoizedMapComponent = React.memo(MapComponent);
 
-function Home() {
+function MapPage() {
     const [mountains, setMountains] = useState<Mountain[]>([]);
     const [ascents, setAscents] = useState<Ascent[]>([]);
     const [activities, setActivities] = useState<Activity[]>([]);
@@ -50,4 +50,4 @@ function Home() {
     );
 }
 
-export default Home;
+export default MapPage;

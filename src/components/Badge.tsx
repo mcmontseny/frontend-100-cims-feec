@@ -15,7 +15,7 @@ const Badge = ({ children, ...props}: BadgeProps) => {
                 "gray": "bg-gray-100 text-black",
             },
             "size": {
-                "sm": "text-base",
+                "sm": "text-xs",
             }
         }
     }

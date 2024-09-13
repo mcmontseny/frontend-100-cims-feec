@@ -68,17 +68,17 @@ function Stats({ mountains, ascents, selectedMountain }: StatsProps) {
                                 <path d="m6 6 12 12"></path>
                             </svg>
                         </button>
-                        <h2 className="text-lg font-bold">Estadístiques</h2>
+                        <h2 className="font-bold">Estadístiques</h2>
                     </div>
                     <div className="flex flex-col gap-[6px]">
                         <div className="flex items-center justify-between">
-              <span className="text-base font-medium">
+              <span className="text-sm font-medium">
                 Repte 100 cims{" "}
                   <span className="text-neutral-500 text-sm">
                   ({ascents.length}/100)
                 </span>
               </span>
-                            <span className="text-muted-foreground text-base">
+                            <span className="text-muted-foreground text-sm">
                 {percentage100Cims}%
               </span>
                         </div>
@@ -90,13 +90,13 @@ function Stats({ mountains, ascents, selectedMountain }: StatsProps) {
                     </div>
                     <div className="flex flex-col gap-[6px]">
                         <div className="flex items-center justify-between">
-              <span className="text-base font-medium">
+              <span className="text-sm font-medium">
                 Total cims{" "}
                   <span className="text-neutral-500 text-sm">
                   ({ascents.length}/{mountains.length})
                 </span>
               </span>
-                            <span className="text-muted-foreground text-base">
+                            <span className="text-muted-foreground text-sm">
                 {percentageTotalCims}%{" "}
               </span>
                         </div>
